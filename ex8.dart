@@ -4,7 +4,7 @@ double celsiusToFahrenheit(double celsius) {
 }
 
 void main() {
-  double c = ;45// 45 is an example of a temperature i choosed to verify
+  double c = ;45
   double f = celsiusToFahrenheit(c);
 
   print("$c°C = ${f.toStringAsFixed(2)}°F");
